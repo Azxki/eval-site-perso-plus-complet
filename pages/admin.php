@@ -14,9 +14,13 @@
     <input type="password" name="password" id="password" required>
 
     <input type="submit" name="submit" id="connexion" value="Connexion">
+    <input type="submit" name="submit" id="deconnexion" value="Deconnexion">
 </form>
 </body>
 </html>
 
 <?php
 
+if (isset($_POST['user']) === $_SESSION['user'] & isset($_POST['password']) === $_SESSION['password']){
+    echo "Connecté !";
+}
