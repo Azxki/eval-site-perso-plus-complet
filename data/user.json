@@ -1,0 +1,19 @@
+{
+    "name": "Coursan",
+    "first_name": "Corentin",
+    "occupation": "Developpeur WEB Front/Back",
+    "experiences": [
+        {
+            "year": 2022,
+            "company": "Formation UpTo Fourmies"
+        },
+        {
+            "year": 2021,
+            "company": "Service civique"
+        },
+        {
+            "year": 2020,
+            "company": "DEUST IOSI Mont-Houy à Valenciennes"
+        }
+    ]
+}

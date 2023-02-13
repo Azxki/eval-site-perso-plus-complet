@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-size:2.9rem;
+}
+
+html {
+	font-size:62.5%;
+}
+
+body {
+	text-align: center;
+	font-family: Calibri, serif;
+	background: #c2c2c2;
+}
+
+header, footer {
+	color: white;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1%;
+	background: #000000;
+}
+
+footer {
+	position: absolute;
+	top: 750px;
+	width: 100%;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none;
+}
+
+ul a {
+	color: white;
+	cursor: pointer;
+}
+
+ul a:hover {
+	color: #abab36;
+}
+
+#id-message {
+
+}
+
+section p {
+	margin-top: 3%;
+}
+
+li {
+	margin-right: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section, form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	border: black solid 2px;
+	padding: 1%;
+}
+
+form input {
+	margin-bottom: 2%;
+}
+
+section h1 {
+	margin: 8px;
+}
+
+#form {
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 15%;
+	box-shadow: black 1px 1px 1px 1px;
+}
+
+#create {
+	padding: 0.3%;
+	background-color: #ff9292;
+}
+
+#connexion {
+	padding: 0.3%;
+	background-color: #a1a1ff;
+}
+
+#create:hover {
+	cursor: pointer;
+}
+
+#connexion:hover {
+	cursor: pointer;
+}
+
+#p {
+	margin-top: 20%;
+	font-weight: bold;
+}
+
+#deconnexion:hover {
+	cursor: pointer;
+}
+
+#deconnexion {
+	padding: 0.3%;
+	background-color: #f66363;
+}
